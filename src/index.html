@@ -322,7 +322,7 @@
       </section>
       <section class="px-8 md:px-16 lg:px-24 bg-primary py-16">
         <div class="border-b-2 border-white">
-          <div class="">
+          <div class="flex">
             <svg
               viewBox="0 0 512 512"
               height="4em"
@@ -336,6 +336,11 @@
                 transform="translate(-37.72115 -17.83114)"
               ></path>
             </svg>
+            <p
+              class="text-white mb-12 flex gap-[0.4rem] items-center w-32 font-semibold"
+            >
+              <span>Learn More</span><i class="fas fa-chevron-circle-right"></i>
+            </p>
           </div>
           <div>
             <h2 class="text-white text-center text-[2.5rem]">
@@ -378,6 +383,13 @@
           <option value="">Alumni</option>
           <option value="">U.Porto Students</option>
         </select>
+        <div class="hidden md:flex gap-8 w-full border-b border-b-gray-300 mb-8 ">
+          <a href="#" class="text-lg font-semibold border-b border-b-gray-900 py-4">International Students</a>
+          <a href="#" class="text-lg font-semibold py-4 text-gray-500 hover:border-b hover:border-b-gray-900">Prospective Students</a>
+          <a href="#" class="text-lg font-semibold py-4 text-gray-500 hover:border-b hover:border-b-gray-900">Professionals</a>
+          <a href="#" class="text-lg font-semibold py-4 text-gray-500 hover:border-b hover:border-b-gray-900">Alumni</a>
+          <a href="#" class="text-lg font-semibold py-4 text-gray-500 hover:border-b hover:border-b-gray-900">U.Porto Students</a>
+        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div class="md:col-start-2">
             <img
@@ -408,7 +420,9 @@
           </div>
         </div>
       </section>
-      <footer class="px-8 md:px-16 lg:px-24 bg-gray-800">
+      <footer 
+      style="background-size: 50%; background-position: -24rem -4rem;"
+      class="relative px-8 md:px-16 lg:px-24 bg-[#333] bg-[url('https://www.up.pt/portal/static/images/img_minerva_footer.png')] bg-left bg-no-repeat">
         <div class="border-b-2 border-gray-200 py-20">
           <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
             <h4 class="text-primary font-semibold">Media</h4>
