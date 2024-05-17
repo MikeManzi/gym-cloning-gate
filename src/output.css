@@ -588,6 +588,10 @@ video {
   }
 }
 
+.relative {
+  position: relative;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -621,20 +625,16 @@ video {
   margin-right: 2rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-32 {
   margin-top: 8rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .block {
@@ -657,12 +657,12 @@ video {
   height: 17rem;
 }
 
-.min-h-36 {
-  min-height: 9rem;
+.h-\[vh\] {
+  height: vh;
 }
 
-.min-h-40 {
-  min-height: 10rem;
+.h-\[100vh\] {
+  height: 100vh;
 }
 
 .min-h-44 {
@@ -753,14 +753,14 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
 .bg-gray-400 {
@@ -783,9 +783,17 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-gray-100 {
+.bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
+}
+
+.bg-\[url\(\'https\:\/\/www\.up\.pt\/portal\/media\/images\/slide-estudantes-internacionais-icbas\.format-jpeg\.jpg\'\)\] {
+  background-image: url('https://www.up.pt/portal/media/images/slide-estudantes-internacionais-icbas.format-jpeg.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/www\.up\.pt\/portal\/static\/images\/minerva_01\.png\'\)\] {
@@ -794,6 +802,10 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
@@ -937,6 +949,14 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+
+.opacity-80 {
+  opacity: 0.8;
 }
 
 .hover\:bg-white:hover {
