@@ -608,8 +608,16 @@ video {
   margin-bottom: 2rem;
 }
 
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
 .block {
   display: block;
+}
+
+.flex {
+  display: flex;
 }
 
 .grid {
@@ -620,24 +628,32 @@ video {
   width: 100%;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.gap-4 {
-  gap: 1rem;
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-8 {
   gap: 2rem;
 }
 
-.gap-12 {
-  gap: 3rem;
+.gap-\[0\.4\] {
+  gap: 0.4;
 }
 
-.gap-10 {
-  gap: 2.5rem;
+.gap-\[0\.4rem\] {
+  gap: 0.4rem;
 }
 
 .border-2 {
@@ -674,14 +690,6 @@ video {
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-\[41\%\] {
-  background-position: 41%;
 }
 
 .bg-no-repeat {
@@ -726,22 +734,22 @@ video {
   line-height: 1;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.font-semibold {
-  font-weight: 600;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-light {
   font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-primary {
@@ -756,6 +764,14 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.hover\:w-28:hover {
+  width: 7rem;
+}
+
+.hover\:gap-\[0\.8rem\]:hover {
+  gap: 0.8rem;
 }
 
 .hover\:bg-white:hover {
