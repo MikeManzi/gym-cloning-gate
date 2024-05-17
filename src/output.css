@@ -625,6 +625,14 @@ video {
   margin-top: 2rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -647,6 +655,10 @@ video {
 
 .w-\[12rem\] {
   width: 12rem;
+}
+
+.w-\[2rem\] {
+  width: 2rem;
 }
 
 .w-full {
@@ -710,14 +722,14 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(161 138 77 / var(--tw-bg-opacity));
-}
-
 .bg-gray-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(161 138 77 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'https\:\/\/www\.up\.pt\/portal\/static\/images\/minerva_01\.png\'\)\] {
@@ -757,14 +769,24 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.py-\[0\.4rem\] {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.px-\[0\.8rem\] {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
 }
 
 .pb-16 {
@@ -862,12 +884,16 @@ video {
     grid-column-start: 2;
   }
 
-  .md\:block {
-    display: block;
+  .md\:col-start-1 {
+    grid-column-start: 1;
   }
 
-  .md\:flex {
-    display: flex;
+  .md\:row-start-1 {
+    grid-row-start: 1;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:hidden {
